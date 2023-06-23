@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    min-height: 100vh;
+    background: linear-gradient(to bottom,rgb(52, 52, 52),rgb(96, 96, 96));
+    font-family: monospace;
+    padding: 0;
+    margin: 0;
+}
+tx{
+    color: #39FF14;
+    font-size: 40px;
+    font-weight: bold;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    padding-top: 240px;
+}
+a{
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 60px;
+    color: rgb(20, 20, 32);
+    border: 10px solid rgb(185, 185, 185);
+    border-radius: 100%;
+    background: rgb(185, 185, 185);
+    text-decoration: none;
+}
+
+a:hover{
+    transition: 0.3s;
+    color: rgb(255, 255, 255);
+  }
